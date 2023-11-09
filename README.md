@@ -40,3 +40,7 @@ Contributions are what make the open-source community such an amazing place to l
 ## License
 This project is licensed under the Apache License v2.0. See the LICENSE file for more details.
 
+## TODO
+
+Create a nice Streamlit wrapper like in https://github.com/BenderScript/VidBot
+
