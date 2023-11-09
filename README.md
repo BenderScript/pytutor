@@ -2,6 +2,8 @@
 
 Python Tutor is a command-line interface program that acts as a personal Python tutor, utilizing the OpenAI Assistant API to interactively teach Python programming.
 
+You can type your Python programs in the terminal and get real-time feedback from the tutor. The tutor will also suggest new exercises based on your progress.
+
 ## Description
 
 This program creates a personalized Python learning session, leveraging OpenAI's Assistant API to provide real-time tutoring for Python learners. It is designed for high school students or anyone starting with Python. The tutor tracks user progress and suggests new exercises as the user advances.
