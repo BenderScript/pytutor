@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ### Environment Variables
 To run this project, you will need to add the following environment variables to your .env file:
 
-OPENAI_API_KEY - Your OpenAI API key.
+OPENAI_API_KEY=Your OpenAI API key.
 
 ## Usage
 To start the tutoring session, run the following command in your terminal:
