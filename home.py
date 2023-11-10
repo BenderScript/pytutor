@@ -32,6 +32,9 @@ def chat_loop(client, assistant, thread):
         user_input = input(f"{Fore.CYAN} User: ")
         print(Style.RESET_ALL)
 
+        if user_input == "quit":
+            break
+
         message = client.beta.threads.messages.create(
             thread_id=thread.id,
             role="user",
@@ -70,6 +73,9 @@ def main():
     client = openai.Client()
 
     print(f"{Fore.MAGENTA} Welcome to the Python Tutor. I am here to help you learn python...{Style.RESET_ALL}\n")
+    print(f"{Fore.MAGENTA} You can start by typing, for example,  'start with a simple exercise' {Style.RESET_ALL}\n")
+    print(f"{Fore.MAGENTA} You can type `quit` to exit ...{Style.RESET_ALL}\n")
+
 
     assistant = client.beta.assistants.create(
         name="Python Tutor",
