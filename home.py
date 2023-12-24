@@ -76,7 +76,6 @@ def main():
     print(f"{Fore.MAGENTA} You can start by typing, for example,  'start with a simple exercise' {Style.RESET_ALL}\n")
     print(f"{Fore.MAGENTA} You can type `quit` to exit ...{Style.RESET_ALL}\n")
 
-
     assistant = client.beta.assistants.create(
         name="Python Tutor",
         instructions="You are a personal Python tutor. You are teaching a high-school student learn Python. Track the "
