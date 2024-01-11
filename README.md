@@ -19,7 +19,7 @@ This program creates a personalized Python learning session, leveraging OpenAI's
 To install the required dependencies, navigate to the project directory and run:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Environment Variables
